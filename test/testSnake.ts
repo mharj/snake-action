@@ -24,6 +24,9 @@ class DemoSnake extends SnakeBuilder {
 		return this;
 	}
 }
+async function Test() {
+	const snake = new DemoSnake();
+	await snake.test('asd').test('qwe').commit();
+}
 
-const snake = new DemoSnake();
-snake.test('asd').test('qwe');
+Test();
