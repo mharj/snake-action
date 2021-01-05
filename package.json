@@ -1,0 +1,26 @@
+{
+  "name": "snake-action",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mharj/snake-action.git"
+  },
+  "keywords": [
+    "action"
+  ],
+  "author": "mharj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mharj/snake-action/issues"
+  },
+  "homepage": "https://github.com/mharj/snake-action#readme",
+  "devDependencies": {
+    "@types/node": "^14.14.20",
+    "typescript": "^4.1.3"
+  }
+}
