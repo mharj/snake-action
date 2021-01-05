@@ -19,10 +19,11 @@ class TestAction implements SnakeAction {
 type TestActionProps = ConstructorParameters<typeof TestAction>;
 
 class DemoSnake extends SnakeBuilder {
-	public test(props: TestActionProps) {
-		this.instances.push(new TestAction(...props));
+	public test(...args: TestActionProps): DemoSnake {
+		this.instances.push(new TestAction(...args));
+		return this;
 	}
 }
 
 const snake = new DemoSnake();
-snake.test('asd');
+snake.test('asd').test('qwe');
