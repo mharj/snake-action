@@ -1,0 +1,34 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "lib": [
+            "es5"
+        ],
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "moduleResolution": "node",
+        "sourceRoot": "./src",
+        "types": [
+            "node",
+            "mocha"
+        ],
+        "declaration": true,
+        "removeComments": false,
+        "inlineSources": true,
+        "inlineSourceMap": true,
+        "forceConsistentCasingInFileNames": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "importHelpers": true,
+        "strictNullChecks": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "noUnusedLocals": true,
+    },
+    "exclude": [
+        "test/*",
+        "dist/*",
+        "node_modules/*"
+    ]
+}
